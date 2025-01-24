@@ -1,0 +1,50 @@
+<style>
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, yellow, pink); /* Gradient border */
+    background-origin: border-box;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Pink glowing shadow */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    font-size: 300%;
+  }
+
+  /* Style the link */
+  .box a {
+    color: rgb(12, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Hover effect for the link */
+  .box a:hover {
+    color: rgb(250, 250, 248); /* Change color on hover */
+    text-decoration: underline;
+  }
+
+  body {
+    margin: 0; /* Prevent default body margin */
+  }
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 180px;
+    color: black;
+  }
+</style>
+
+<body>
+  <p> How to search ?</p>
+  <div class="box">
+    <a href="https://www.google.com" target="_blank">按鈕</a> <!-- Corrected 'href' and added 'target="_blank" -->
+  </div>
+</body>
